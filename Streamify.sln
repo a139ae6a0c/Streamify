@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamify", "Streamify\Streamify.csproj", "{0771BFC4-8DE8-4618-9740-1E790B6341D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0771BFC4-8DE8-4618-9740-1E790B6341D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0771BFC4-8DE8-4618-9740-1E790B6341D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0771BFC4-8DE8-4618-9740-1E790B6341D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0771BFC4-8DE8-4618-9740-1E790B6341D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABBFDBAE-DD28-4011-A83F-0A8EEC87CC5D}
+	EndGlobalSection
+EndGlobal
