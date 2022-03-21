@@ -1,5 +1,5 @@
 # Streamify
-Spotify Following bot using Selenium. Sorry for the messy code.
+Spotify Following bot using Selenium. Sorry for the messy code. I do not support this project anymore. You can create a Pull Request for any updates.
 
 
 ## Discord  
