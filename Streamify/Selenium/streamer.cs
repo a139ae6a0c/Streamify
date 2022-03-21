@@ -16,6 +16,11 @@ using Colorful;
 using Console = Colorful.Console;
 using System.Drawing;
 
+      /* 
+ Alot of messy code is here sorry for that. 
+
+      */ 
+
 
 namespace Streamify.NewFolder1
 {
@@ -40,7 +45,7 @@ namespace Streamify.NewFolder1
         }
         public static int count = 0;
         public static int count_total;
-        public static bool proxies_tester(string proxy)
+            /*   public static bool proxies_tester(string proxy)
         {
             try
             {
@@ -78,7 +83,9 @@ namespace Streamify.NewFolder1
                 return false;
             }
             return false;
-        }
+        }      */ 
+
+
         public static string proxy_grabber()
         {
             string[] proxies = File.ReadAllLines("proxies.txt");
@@ -119,27 +126,6 @@ namespace Streamify.NewFolder1
                 return false;
             }
 
-            if (Program.proxy_type.ToLower() == "off")
-            {
-            }
-            else
-            {
-
-                for (int i = 1; i <= 200; i++)
-                {
-                    proxy = proxy_grabber();
-                    bool tester = proxies_tester(proxy);
-                    if (tester == true)
-                    {
-                        Console.WriteLine("Proxies works " + proxy);
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine(proxy + " Failed");
-                    }
-                }
-            }
 
             ChromeDriverService service = ChromeDriverService.CreateDefaultService();
             service.EnableVerboseLogging = false;
